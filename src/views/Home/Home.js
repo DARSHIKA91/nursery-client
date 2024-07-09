@@ -9,7 +9,7 @@ function Home() {
 
     const loadPlants = async ()=>{
         toast.loading("Loding plants...")
-        const response = await axios.get(`https://nursery-server-j4zk.onrender.com/plants`)
+        const response = await axios.get(`${process.env.REACT_APP_API_URL}/plants`)
         toast.dismiss()
         toast.success("Plants loaded successfully")
         setPlants(response.data.data)
