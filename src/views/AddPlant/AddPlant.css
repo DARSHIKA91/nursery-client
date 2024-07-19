@@ -1,0 +1,11 @@
+.plant-input{
+    display: block;
+    margin: 10px;
+    width: 200px;
+}
+
+.img-preview{
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+}
