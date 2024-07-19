@@ -42,7 +42,7 @@ function AddPlant() {
     <div>
       <h1>Add Plant</h1>
 
-      <form>
+      <form className='addplant-container'>
 
         <input 
           type='text'
@@ -85,7 +85,7 @@ function AddPlant() {
           className='plant-input'
           />
 
-        <button type='button' onClick={addPlant}>Add Plant</button>
+        <button type='button' onClick={addPlant} className='btn-addplant'>Add Plant</button>
       </form>
 
       <br /> 
